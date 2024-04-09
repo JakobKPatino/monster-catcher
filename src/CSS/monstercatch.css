@@ -1,0 +1,52 @@
+.monster-catch {
+  display: flex;
+  height: Calc(88% - 1px);
+  width: 100%;
+}
+
+.background-photo {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-position: 50% 50%;
+  z-index: 0;
+}
+
+.monster-catch-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: Calc(88% - 1px);
+  width: 100%;
+  z-index: 1;
+}
+
+.monster-catch-button-container {
+  display: flex;
+  justify-content: space-between;
+  height: 8%;
+  margin: 10px;
+}
+
+.monster-array-container {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.monster-slots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  aspect-ratio: 1/1;
+}
+
+.catch-sprite{
+  height: 100%;
+  width: 100%;
+}

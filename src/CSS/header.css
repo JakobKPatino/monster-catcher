@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 12%;
+  border-bottom: 1px solid black;
+}
+
+.header-title {
+  margin: 0;
+}
